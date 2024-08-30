@@ -1,0 +1,38 @@
+[
+    {
+        "image":"../assets/danbatata.jpg",
+        "name": "danbatata"
+    },
+    {
+        "image": "../assets/danburro.jpg",
+        "name": "danburro"
+    },
+    {
+        "image": "../assets/dancria.jpg",
+        "name": "dancria"
+    },
+    {
+        "image": "../assets/dansexy.png",
+        "name": "dansexy"
+    },
+    {
+        "image": "../assets/joaoburro.jpg",
+        "name": "joaoburro"
+    },
+    {
+        "image": "../assets/joaomendigo.png",
+        "name": "joaomendigo"
+    },
+    {
+        "image": "../assets/natedofuturo.png",
+        "name": "natedofuturo"
+    },
+    {
+        "image": "../assets/natefurry.png",
+        "name": "natefurry"
+    },
+    {
+        "image": "../assets/spiderjoao.png",
+        "name": "spiderjoao"
+    }
+]
