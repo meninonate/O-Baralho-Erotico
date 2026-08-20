@@ -1,5 +1,44 @@
 const gridContainer = document.querySelector(".grid-container");
-let cards = [];
+let cards = [
+  {
+    name: "danbatata",
+    image: "./assets/danbatata.jpg"
+  },
+  {
+    name: "danburro",
+    image: "./assets/danburro.jpg"
+  },
+  {
+    name: "dancria",
+    image: "./assets/dancria.jpg"
+  },
+  {
+    name: "dansexy",
+    image: "./assets/dansexy.png"
+  },
+  {
+    name: "joaoburro",
+    image: "./assets/joaoburro.jpg"
+  },
+  {
+    name: "joaomendigo",
+    image: "./assets/joaomendigo.png"
+  },
+  {
+    name: "natedofuturo",
+    image: "./assets/natedofuturo.png"
+  },
+  {
+    name: "natefurry",
+    image: "./assets/natefurry.png"
+  },
+  {
+    name: "spiderjoao",
+    image: "./assets/spiderjoao.png"
+  }
+];
+
+cards = [...cards, ...cards];
 let firstCard, secondCard;
 let lockBoard = false;
 let score = 0;
@@ -34,7 +73,7 @@ function generateCards() {
     cardElement.setAttribute("data-name", card.name);
     cardElement.innerHTML = `
       <div class="front">
-        <img class="front-image" src=${card.image} />
+        <img class="front-image" src="${card.image}" alt="${card.name}">
       </div>
       <div class="back"></div>
     `;
